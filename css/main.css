@@ -1,0 +1,304 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/hind-madurai-v11-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/hind-madurai-v11-latin-500.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/hind-madurai-v11-latin-700.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-serif-v13-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-serif-v13-latin-500.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-serif-v13-latin-700.woff2') format('woff2');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Hind Madurai", sans-serif;
+    background-color: #fff;
+}
+
+ul {
+    font-family: "Roboto Serif", serif;
+}
+
+:root {
+    --site-bg: #F2CEDA;
+    --btn-bg: #D23166;
+    --black-cl: #150101;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header style start */
+
+.site-header {
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgb(242, 206, 218);
+    position: fixed;
+    z-index: 5;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-link {
+    gap: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.header-item a {
+    color: var(--black-cl);
+    opacity: 0.6;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    transition: all 0.4s;
+}
+
+.header-item a:hover {
+    color: var(--btn-bg);
+    opacity: 1;
+}
+
+.header-btn {
+    color: #fff;
+    width: 165px;
+    border-radius: 5px;
+    padding: 14px 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.08px;
+    text-align: center;
+    border: 2px solid transparent;
+    background-color: var(--btn-bg);
+}
+
+.header-btn:hover {
+    color: var(--btn-bg);
+    border-color: var(--btn-bg);
+    background-color: #FAFAFA;
+}
+
+/* Header style end */
+
+/* Hero style start */
+
+.hero-section {
+    padding: 136px 0 6px 0;
+    height: 100vh;
+    background-color: rgb(242, 206, 218, 0.3);
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-content-wrapper {
+    width: 665px;
+}
+
+.hero-content-wrapper strong {
+    color: #0F0101;
+    font-family: "Roboto Serif", serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    letter-spacing: 0.1em;
+}
+
+.hero-content-wrapper h1 {
+    font-family: Fredoka One;
+    color: #0F0101;
+    font-size: 57.33px;
+    font-weight: bold;
+    line-height: 69.08px;
+    margin: 6px 0 35px 0;
+}
+
+.hero-content-wrapper h1 span {
+    color: var(--btn-bg);
+}
+
+.hero-content-wrapper p {
+    color: #0F0101;
+    width: 523px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.hero-content-wrapper button {
+    color: #fff;
+    width: 165px;
+    margin-top: 50px;
+    border-radius: 5px;
+    padding: 16px 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.08px;
+    text-align: center;
+    border: 2px solid transparent;
+    background-color: var(--btn-bg);
+    transition: all 0.4s;
+}
+
+.hero-content-wrapper button:hover {
+    color: var(--btn-bg);
+    border-color: var(--btn-bg);
+    background-color: #FAFAFA;
+}
+
+/* Hero style end */
+
+/* Chancel style start */
+
+.chancel-section {
+    padding: 100px 0;
+}
+
+.chance-list {
+    grid-column-gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+}
+
+.chance-item {
+    text-align: center;
+    border: 1px solid #00000008;
+    padding: 35px 26px 28px 26px;
+    transition: all 0.4s;
+}
+
+.chance-item:hover {
+    box-shadow: 20px 20px 50px 0px #0000001A;
+}
+
+.chance-item h3 {
+    color: #000;
+    margin: 22px 0 9px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.6px;
+}
+
+.chance-item p {
+    color: #000;
+    opacity: 0.6;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.32px;
+}
+
+/* Chancel style end */
+
+
+/* Sugar style start */
+
+.sugar-section {
+    background-color: #F8EDF0;
+}
+
+.sugar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sugar-content-wrapper {
+    width: 442px;
+}
+
+.sugar-content-wrapper h2 {
+    color: var(--black-cl);
+    width: 349px;
+    font-size: 44.2px;
+    font-weight: 600;
+    line-height: 48.84px;
+    margin-bottom: 16px;
+}
+
+.sugar-content-wrapper p {
+    color: var(--black-cl);
+    font-family: "Roboto Serif", serif;
+    opacity: 0.6;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 35px;
+}
+
+.sugar-content-wrapper button {
+    color: #fff;
+    width: 165px;
+    border-radius: 5px;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: center;
+    font-family: "Roboto Serif", serif;
+    border: 2px solid transparent;
+    background-color: var(--btn-bg);
+    transition: all 0.4s;
+}
+
+.sugar-content-wrapper button:hover {
+    color: var(--btn-bg);
+    border-color: var(--btn-bg);
+    background-color: #FAFAFA;
+}
+
+/* Sugar style end */
