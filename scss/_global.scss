@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Hind Madurai", sans-serif;
+    background-color: #fff;
+}
+
+ul {
+    font-family: "Roboto Serif", serif;
+}
+
+:root {
+    --site-bg: #F2CEDA;
+    --btn-bg: #D23166;
+    --black-cl: #150101;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 20px;
+}

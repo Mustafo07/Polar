@@ -1,0 +1,138 @@
+.site-footer {
+    padding: 70px 0 104px;
+    background-color: #0A0808;
+}
+
+.footer {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.footer-content-wrapper {
+    width: 207px;
+}
+
+.footer-content-wrapper p {
+    color: #fff;
+    opacity: 0.7;
+    font-family: "Roboto Serif", serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.76px;
+    letter-spacing: 0.01em;
+    margin-top: 9px;
+    margin-bottom: 25px;
+}
+
+.footer-content-wrapper strong {
+    color: #fff;
+    font-family: "Roboto Serif", serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.06px;
+}
+
+.footer-logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+.footer-list {
+    padding-top: 73px;
+}
+
+.footer-list+.footer-list {
+    padding-top: 80px;
+}
+
+.footer-list strong {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+}
+
+.footer-list li+li {
+    margin-top: 10px;
+}
+
+.footer-list li a {
+    color: #fff;
+    opacity: 0.7;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+}
+
+.footer-list li a:hover {
+    opacity: 1;
+    color: #D23166;
+}
+
+.footer-form {
+    padding-top: 66px;
+}
+
+.footer-form strong {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+}
+
+.footer-input-wrapper {
+    margin-top: 13px;
+    position: relative;
+}
+
+.footer-input-wrapper input {
+    width: 388px;
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    border: 2px solid #D64374;
+    padding: 20px 135px 20px 32px;
+    background-color: transparent;
+}
+
+.footer-input-wrapper input::placeholder {
+    color: #fff;
+    opacity: 0.6;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+}
+
+.footer-input-wrapper button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 125px;
+    padding: 16px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.44px;
+    border: 2px solid transparent;
+    background-color: #D23166;
+}
+
+.footer-input-wrapper button:hover {
+    border-color: #D23166;
+    background-color: white;
+    color: #D23166;
+}
+
+.footer-form-logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}

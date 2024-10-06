@@ -1,0 +1,88 @@
+.help-section {
+    padding: 110px 0;
+}
+
+.help-title-wrapper {
+    width: 522px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.help-section h2 {
+    font-family: "Roboto Serif", serif;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 51.56px;
+}
+
+.help-form {
+    width: 637px;
+    margin: 36px auto;
+}
+
+.help-input-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 37px;
+}
+
+.help-input-group input {
+    width: 303px;
+    outline: none;
+    padding: 29px 10px 29px 25px;
+    border: 1px solid #FFA3A3;
+    color: #0F0000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    border-radius: 5px;
+}
+
+.help-input-group input::placeholder {
+    color: #0F0000;
+    opacity: 0.6;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+}
+
+.help-input-wrapper {
+    position: relative;
+}
+
+.help-input {
+    width: 100%;
+    outline: none;
+    padding: 29px 144px 29px 25px;
+    border: 1px solid #FFA3A3;
+    color: #0F0000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    border-radius: 5px;
+}
+
+.help-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 134px;
+    color: #fff;
+    padding: 25px 0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.44px;
+    border-radius: 5px;
+    background-color: #D64374;
+    border: 2px solid transparent;
+    font-family: "Roboto Serif", serif;
+    transition: all 0.4s;
+}
+
+.help-btn:hover {
+    color: #D64374;
+    border-color: #D64374;
+    background-color: #fff;
+}

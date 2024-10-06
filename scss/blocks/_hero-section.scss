@@ -1,0 +1,66 @@
+.hero-section {
+    padding: 136px 0 6px 0;
+    height: 100vh;
+    background-color: rgba(242, 206, 218, 0.3);
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-content-wrapper {
+    width: 665px;
+}
+
+.hero-content-wrapper strong {
+    color: #0F0101;
+    font-family: "Roboto Serif", serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    letter-spacing: 0.1em;
+}
+
+.hero-content-wrapper h1 {
+    font-family: Fredoka One;
+    color: #0F0101;
+    font-size: 57.33px;
+    font-weight: bold;
+    line-height: 69.08px;
+    margin: 6px 0 35px 0;
+}
+
+.hero-content-wrapper h1 span {
+    color: var(--btn-bg);
+}
+
+.hero-content-wrapper p {
+    color: #0F0101;
+    width: 523px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.hero-content-wrapper button {
+    color: #fff;
+    width: 165px;
+    margin-top: 50px;
+    border-radius: 5px;
+    padding: 16px 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.08px;
+    text-align: center;
+    border: 2px solid transparent;
+    background-color: var(--btn-bg);
+    transition: all 0.4s;
+}
+
+.hero-content-wrapper button:hover {
+    color: var(--btn-bg);
+    border-color: var(--btn-bg);
+    background-color: #FAFAFA;
+}

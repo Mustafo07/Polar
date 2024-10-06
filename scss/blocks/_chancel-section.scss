@@ -1,0 +1,36 @@
+.chancel-section {
+    padding: 100px 0;
+}
+
+.chance-list {
+    grid-column-gap: 30px;
+    display: grid;
+    grid-template-columns:  250px 250px 250px 250px;
+}
+
+.chance-item {
+    text-align: center;
+    border: 1px solid #00000008;
+    padding: 35px 26px 28px 26px;
+    transition: all 0.4s;
+}
+
+.chance-item:hover {
+    box-shadow: 20px 20px 50px 0px #0000001A;
+}
+
+.chance-item h3 {
+    color: #000;
+    margin: 22px 0 9px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.6px;
+}
+
+.chance-item p {
+    color: #000;
+    opacity: 0.6;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.32px;
+}

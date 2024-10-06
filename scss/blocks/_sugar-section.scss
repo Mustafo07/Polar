@@ -1,0 +1,53 @@
+.sugar-section {
+    background-color: #F8EDF0;
+}
+
+.sugar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sugar-content-wrapper {
+    width: 442px;
+}
+
+.sugar-content-wrapper h2 {
+    color: var(--black-cl);
+    width: 349px;
+    font-size: 44.2px;
+    font-weight: 600;
+    line-height: 48.84px;
+    margin-bottom: 16px;
+}
+
+.sugar-content-wrapper p {
+    color: var(--black-cl);
+    font-family: "Roboto Serif", serif;
+    opacity: 0.6;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 35px;
+}
+
+.sugar-content-wrapper button {
+    color: #fff;
+    width: 165px;
+    border-radius: 5px;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: center;
+    font-family: "Roboto Serif", serif;
+    border: 2px solid transparent;
+    background-color: var(--btn-bg);
+    transition: all 0.4s;
+}
+
+.sugar-content-wrapper button:hover {
+    color: var(--btn-bg);
+    border-color: var(--btn-bg);
+    background-color: #FAFAFA;
+}
